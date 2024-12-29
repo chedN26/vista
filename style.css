@@ -67,9 +67,10 @@ p {
 
 #front-text {
     background: #0e5ec980;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     border-radius: 15px;
+    font-size: 20px;
 }
 
 #vista-header {
@@ -86,4 +87,61 @@ p {
 
 #vista-sign-up {
     background-image: linear-gradient(to bottom right, #0e5ec9, #0ea2c9);
+}
+
+#btn-sign-in {
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 25px;
+}
+
+#btn-sign-up {
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 25px;
+}
+
+#rev-main-div {
+    display: flex;
+    height: 100vh;
+}
+
+#rev-footer-div {
+    display: block;
+}
+
+#rev-cn1 {
+    display: flex;
+}
+
+#rev-cn2 {
+    display: flex;
+}
+#rev-cn3 {
+    display: flex;
+}
+
+#rev-cn5 {
+    display: flex;
+}
+
+#rev-cn6 {
+    width: 60vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#rev-cn7 {
+    padding-top: 75px;
+    margin-right: 5vw;
+    background: #0e5ec980;
+    border-radius: 15px;
+}
+
+a:link {
+    color: white;
+  }
+
+a:visited {
+color: white;
 }
